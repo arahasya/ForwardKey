@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:layout_margin="20sp"
+    android:paddingStart="10sp"
+    android:paddingEnd="10sp">
+
+    <TextView
+        android:id="@+id/textView_keyword"
+        android:layout_width="269dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:accessibilityHeading="false"
+        android:paddingTop="10sp"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="22sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView_contact_names"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="5sp"
+        android:textSize="17sp"
+        app:autoSizeMaxTextSize="17sp"
+        app:autoSizeTextType="uniform" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_contact_names"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:contentDescription="@string/delete_record"
+        app:srcCompat="@drawable/ic_delete"
+
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

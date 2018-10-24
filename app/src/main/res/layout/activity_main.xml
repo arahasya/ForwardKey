@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azureColorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@color/azureColorPrimary">
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        android:text="@string/title"
+        android:textColor="#ffffff"
+
+        android:textSize="25sp"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ListView
+            android:id="@+id/record_list"
+            android:layout_width="match_parent"
+            android:layout_height="567dp"
+            android:layout_marginTop="50sp"
+            android:paddingTop="10sp"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/ic_add"
+        app:backgroundTint="@color/azureColorPrimary"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <ImageView
+        android:id="@+id/guide"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <ImageView
+        android:id="@+id/show_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/guide"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        app:srcCompat="@drawable/ic_tut" />
+
+
+</RelativeLayout>

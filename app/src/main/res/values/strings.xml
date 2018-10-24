@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ForwardKey</string>
+    <string name="enter_keyword">Enter Keyword:</string>
+    <string name="delete_record">Delete record</string>
+    <string name="title">ForwardKey</string>
+    <string name="info_main">Click on the add button to insert a new record. You can select up to 10 contacts for each record. Messages will be forwarded automatically after creating a record.</string>
+
+    <string name="point_1">1. This keyword will be used to filter incoming SMS.</string>
+    <string name="point_2">2. Keyword can be of multiple words also. Keyword is case insensitive.</string>
+    <string name="point_3">3. Keep the keyword blank to forward all messages.</string>
+    <string name="example">Example: otp, account, thank you</string>
+    <string name="title_record">Step 1 :</string>
+    <string name="security">No internet access is used by this application. The messages will be forwarded only to those contacts you set the keyword with.</string>
+    <string name="ok">OK</string>
+</resources>
